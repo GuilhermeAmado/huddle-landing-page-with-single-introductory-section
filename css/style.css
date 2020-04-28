@@ -23,9 +23,64 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: #fff;
+    display: grid;
+    font-family: "Open Sans", sans-serif;
     padding: 5rem 7rem;
 }
 
+header {
+    padding-bottom: 10rem;
+}
+
+main {
+    display: flex;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1.8rem;
+    padding: 3rem 0;
+}
+
+button {
+    border-radius: 3rem;
+    border: none;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .6);
+    color: var(--primary-color);
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 5.5rem;
+    outline: none;
+    transition: .2s;
+    width: 20rem;
+}
+
+button:hover {
+    box-shadow: 1px 1px 17px rgba(0, 0, 0, .4);
+    transform: scale(1.1);
+}
+
 .logo {
-    width: 210px;
+    width: 21rem;
+}
+
+.landing-img {
+    max-width: 71rem;
+}
+
+.landing-img img {
+    width: 100%;
+}
+
+.landing-text {
+    max-width: 58rem;
+    padding-top: 6rem;
+    padding-left: 6rem;
 }
