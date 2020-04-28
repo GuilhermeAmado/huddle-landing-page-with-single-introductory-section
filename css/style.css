@@ -24,7 +24,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
-    display: grid;
     font-family: "Open Sans", sans-serif;
     padding: 5rem 7rem;
 }
@@ -123,4 +122,40 @@ ul {
 .attribution a {
     color: #fff;
     font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+    
+    body {
+        background-image: url(../images/bg-mobile.svg);
+    }
+
+    main {
+        display: block;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    footer {
+        margin-top: 3rem;
+    }
+
+    .landing-text {
+        margin-top: 3rem;
+        min-width: 100%;
+        padding-top: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+    .social ul {
+        margin-right: 0%;
+    }
+
 }
